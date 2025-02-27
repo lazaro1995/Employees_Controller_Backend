@@ -22,6 +22,7 @@ class Employee extends Model
         'country',
         'city',
         'postal_code',
+        'client_id',
         'emergency_contact',
         'emergency_phone',
         'company_id'

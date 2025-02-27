@@ -9,6 +9,7 @@ class TimeCard extends Model
 {
     use HasFactory;
     protected $fillable = [
+        'id',
         'punch_type',
         'punch_date',
         'status',
